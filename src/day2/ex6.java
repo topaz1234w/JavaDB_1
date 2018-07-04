@@ -1,6 +1,6 @@
 package day2;
 
-public class ex_for_6 {
+public class ex6 {
 	public static void main(String[] args) {
 		/* 정수가 소수인지 아닌지 판별하는 코드를
 		 * 작성하세요.
@@ -52,4 +52,6 @@ public class ex_for_6 {
 			
 		}
 	}
+}
+
 }
