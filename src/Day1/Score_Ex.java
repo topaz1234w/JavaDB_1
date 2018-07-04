@@ -17,6 +17,7 @@ public class Score_Ex {
 		if( 0 <= 59){
 			System.out.println(score +"F 입니다");
 		if(score <= 100 && score >= 90){
+<<<<<<< HEAD
 				System.out.println(score+"A");
 		}
 		else if(score <= 89 && score >= 80){
@@ -33,6 +34,21 @@ public class Score_Ex {
 		else{
 			System.out.println(score+"성적을 잘 못 입력했습니다.");
 		}
+=======
+				System.out.println("A");
+		}
+		else if(score <= 89 && score >= 80){
+				System.out.println("B");
+		}									
+		else if(score <= 79 && score >= 70){
+				System.out.println("C");
+		}
+		else if(score <= 69 && score >= 60){
+				System.out.println("D");
+		}
+		else if(score <= 59 && score >= 0){
+				System.out.println("F");
+>>>>>>> master
 			}
 		}
 	}
